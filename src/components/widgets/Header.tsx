@@ -83,7 +83,7 @@ export default component$(() => {
           <div class="hidden items-center md:flex">
             <ToggleTheme iconClass="w-6 h-6" />
             <a
-              href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/o4w8v55dhs?form_factor=mobile"
+              href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/e2cnlsqg0g?form_factor=mobile"
               aria-label="Metriche Page Speed"
               class="ml-3 btn btn-primary w-full h-10 px-5 shadow-none text-base"
             >

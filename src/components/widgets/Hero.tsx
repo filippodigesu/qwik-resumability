@@ -24,7 +24,7 @@ export default component$(() => {
                   <div class="flex w-full sm:w-auto">
                     <a
                       class="btn btn-primary sm:mb-0 w-full"
-                      href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/o4w8v55dhs?form_factor=mobile"
+                      href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/e2cnlsqg0g?form_factor=mobile"
                       target="_blank"
                       rel="noopener"
                     >
