@@ -17,14 +17,14 @@ export default component$(() => {
               </h1>
               <div class="max-w-3xl mx-auto">
                 <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-                  Qwik Test è un sito web costruito con il Framework <em>Qwik</em>, sfruttando la sua feature più importante: la <em>Resumability</em>.
+                  Qwik Test è un sito web costruito con il Framework Qwik, sfruttando la sua feature più importante: la Resumability.
                   È stato progettato seguendo le best practice per l'ottimizzazione delle performance.
                 </p>
                 <div class="max-w-xs sm:max-w-md flex flex-nowrap flex-col sm:flex-row gap-4 m-auto md:m-0 justify-center md:justify-start">
                   <div class="flex w-full sm:w-auto">
                     <a
                       class="btn btn-primary sm:mb-0 w-full"
-                      href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/7qa260tsk4?form_factor=desktop"
+                      href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/52s5buu969?form_factor=desktop"
                       target="_blank"
                       rel="noopener"
                     >

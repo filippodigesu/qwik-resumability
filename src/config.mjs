@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwik - Test",
+  name: "Qwik Test",
 
   title:
-    "Qwik Test — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Qwik Test - Questo sito web è costruito con Qwik",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "Qwik Test è un sito web costruito con il Framework Qwik, sfruttando la sua feature più importante: la Resumability.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://qwik-resumability.vercel.app/",
   basePathname: "/",
   trailingSlash: true,
 };
