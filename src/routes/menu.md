@@ -1,8 +1,8 @@
 # Menu
 
-## Pages
+## Pagine
 
-- [Services](#)
-- [Porfolio](#)
-- [About us](#)
+- [Servizi](#)
+- [Chi siamo](#)
+- [Contatti](#)
 

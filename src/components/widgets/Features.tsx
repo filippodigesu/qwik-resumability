@@ -1,46 +1,51 @@
 import { component$ } from "@builder.io/qwik";
-import { IconStar } from "~/components/icons/IconStar";
+import { IconResumable } from "../icons/IconResumable";
+import { IconSerializable } from "../icons/IconSerializable";
+import { IconProgressive } from "../icons/iconProgressive";
+import { IconPerformance } from "../icons/IconPerformance";
+import { IconSeo } from "../icons/IconSeo";
+import { IconReactivity } from "../icons/IconReactivity";
 
 export default component$(() => {
   const items = [
     [
       {
-        title: "Qwik + Tailwind CSS Integration",
+        title: "Resumable",
         description:
-          "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
-        icon: "tabler:brand-tailwind",
+          "Elimina completamente il requisito dell'idratazione.",
+        icon: <IconResumable />,
       },
       {
-        title: "Ready-to-use Components",
+        title: "Serialization",
         description:
-          "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
-        icon: "tabler:components",
+          "Le applicazioni Qwik possono essere serializzate in qualsiasi momento del loro ciclo di vita.",
+        icon: <IconSerializable />,
       },
       {
-        title: "Best Practices",
+        title: "Progressive",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-        icon: "tabler:list-check",
+          "Il principio di progressive consiste nello scaricare il codice in modo dinamico, in base alle esigenze dell'applicazione.",
+        icon: <IconProgressive />,
       },
     ],
     [
       {
-        title: "Excellent Page Speed",
+        title: "Performance Istantanee",
         description:
-          "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
-        icon: "tabler:rocket",
+          "Una buona velocità della pagina migliora l'esperienza dell'utente (UI/UX) e aumenta i tassi di conversione.",
+        icon: <IconPerformance />,
       },
       {
         title: "Search Engine Optimization (SEO)",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-        icon: "tabler:arrows-right-left",
+          "Le prestazioni sono un'aspetto fondamentale per l'indicizzazione sui motori di ricerca.",
+        icon: <IconSeo />,
       },
       {
-        title: "Open to new ideas and contributions",
+        title: "Reactivity",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-        icon: "tabler:bulb",
+          "La caratteristica di reattività in Qwik consente al framework di tenere traccia di quali componenti sono iscritti a quale stato.",
+        icon: <IconReactivity />,
       },
     ],
   ];
@@ -53,21 +58,20 @@ export default component$(() => {
             Features
           </p>
           <h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-            What you get with <span class="whitespace-nowrap">Qwind</span>
+            Qwik – il primo framework Resumable O(1)
           </h2>
           <p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            Qwik è un framework web open source sviluppato da Miško Hevery, Manu Martinez Almeida e Adam Bradley, per la creazione di applicazioni web.
           </p>
         </div>
         <div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
           {items.map((subitems, index) => (
             <div key={index} class="space-y-8 sm:px-8">
-              {subitems.map(({ title, description }, index2) => (
+              {subitems.map(({ title, description, icon }, index2) => (
                 <div key={index2} class="flex flex-row max-w-md">
                   <div class="mb-4 mr-4">
                     <div class="text-white flex items-center justify-center w-12 h-12 rounded-full bg-secondary-500 dark:bg-secondary-700">
-                      <IconStar />
+                      {icon}
                     </div>
                   </div>
                   <div>

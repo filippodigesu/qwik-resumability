@@ -1,3 +1,4 @@
+/* eslint-disable qwik/jsx-key */
 import { component$, useStore } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
 
@@ -14,11 +15,10 @@ export default component$(() => {
 
   return (
     <header
-      class={`sticky top-0 z-40 flex-none mx-auto w-full transition-all${
-        store.isScrolling
-          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
-          : ""
-      }`}
+      class={`sticky top-0 z-40 flex-none mx-auto w-full transition-all${store.isScrolling
+        ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+        : ""
+        }`}
       id="header"
       window:onScroll$={() => {
         if (!store.isScrolling && window.scrollY >= 10) {
@@ -83,11 +83,11 @@ export default component$(() => {
           <div class="hidden items-center md:flex">
             <ToggleTheme iconClass="w-6 h-6" />
             <a
-              href="https://github.com/onwidget/qwind"
-              aria-label="Qwind Github"
+              href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/kib96utlhz?form_factor=desktop"
+              aria-label="Metriche Page Speed"
               class="ml-3 btn btn-primary w-full h-10 px-5 shadow-none text-base"
             >
-              Download
+              Metriche Page Speed
             </a>
           </div>
         </div>

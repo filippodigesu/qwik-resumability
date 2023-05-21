@@ -5,37 +5,31 @@ export default component$(() => {
   const items = [
     [
       {
-        question: "What do I need to start?",
-        answer: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.
-
-    Many say exploration is part of our destiny, but it’s actually our duty to future generations.`,
+        question: "Perché un altro framework?",
+        answer: `La risposta breve è che Qwik risolve un problema che altri framework non possono risolvere. Qwik offre prestazioni di avvio istantanee, indipendentemente dalla complessità dell'applicazione. Le applicazioni Qwik forniscono la stessa quantità di JS iniziale, indipendentemente dalla quantità di componenti.`,
       },
       {
-        question: "How to install the Qwik + Tailwind CSS template?",
-        answer: `Well, the way they make shows is, they make one show. That show's called a pilot.
-
-    Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.`,
+        question: "Che cos'è Qwik City?",
+        answer: `Qwik City è solo un insieme di API aggiuntive rispetto a Qwik. Si pensi a Qwik come al nucleo centrale e a City come alle API aggiuntive (routing, caricamento dei dati, endpoint, ecc.). Lo chiamiamo un meta-framework per Qwik. Qwik City è per Qwik quello che Next.js è per React, Nuxt per Vue o SvelteKit per Svelte.`,
       },
       {
-        question: "What's something that you completely don't understand?",
-        answer: `A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.`,
+        question: "Qwik scarica JS quando l'utente interagisce?",
+        answer: `No. In produzione, Qwik utilizza molte informazioni generate durante l'SSR (Server-Side Rendering) per iniziare a pre-popolare la cache con i soli bit di interattività disponibili nella pagina corrente il prima possibile. In questo modo, quando l'utente fa clic o interagisce, il JS è già nella cache.`,
       },
     ],
     [
       {
-        question: "What's an example of when you changed your mind?",
-        answer: `Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.`,
+        question: "Le app Qwik sono lente sulle reti lente?",
+        answer: `Niente affatto! Grazie allo Speculative Module Fetching, le applicazioni Qwik non risentono della lentezza delle reti rispetto ad altri framework. Anzi, grazie al bundling a grana fine e alla resumability, le app Qwik possono diventare interattive con molto meno JS, rendendole di fatto più veloci sulle reti lente.`,
       },
       {
-        question: "What is something that you would really like to try again?",
-        answer: `A business big enough that it could be listed on the NASDAQ goes belly up. Disappears!
-
-      It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.`,
+        question: "Qwik genera troppi file piccoli?",
+        answer: `In modalità dev Qwik genera molti file di piccole dimensioni perché utilizza il server Dev Vite.js, ma in modalità di produzione Qwik raggruppa i file in modo più efficiente.`,
       },
       {
         question:
-          "If you could only ask one question to each person you meet, what would that question be?",
-        answer: `This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.`,
+          "In quali linguaggi è scritto Qwik?",
+        answer: `La maggior parte di Qwik è scritta in TypeScript, un superset di JavaScript che aggiunge la tipizzazione statica opzionale e altre caratteristiche. Tuttavia, il compilatore (o ottimizzatore) di Qwik è scritto in Rust, un linguaggio molto veloce ed efficiente in termini di memoria.`,
       },
     ],
   ];
