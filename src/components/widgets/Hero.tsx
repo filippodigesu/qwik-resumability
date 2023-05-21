@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import { IconGithub } from "../icons/IconGithub";
 
-const coverImage = "src/assets/images/HERO.webp";
+const coverImage = "https://raw.githubusercontent.com/filippodigesu/qwik-resumability/main/src/assets/images/HERO.webp";
 
 export default component$(() => {
   return (
@@ -32,7 +32,7 @@ export default component$(() => {
                     </a>
                   </div>
                   <div class="flex w-full sm:w-auto">
-                    <a class="btn w-full bg-gray-50 dark:bg-transparent" href="https://github.com/filippodigesu"><IconGithub /> GitHub</a>
+                    <a class="btn w-full bg-gray-50 dark:bg-transparent" href="https://github.com/filippodigesu/qwik-resumability/"><IconGithub /> GitHub</a>
                   </div>
                 </div>
               </div>

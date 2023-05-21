@@ -61,7 +61,7 @@ export default component$(() => {
     {
       label: "Github",
       icon: IconGithub,
-      href: "https://github.com/filippodigesu",
+      href: "https://github.com/filippodigesu/qwik-resumability/",
     },
   ];
 

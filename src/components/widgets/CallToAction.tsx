@@ -16,7 +16,7 @@ export default component$(() => {
             <div class="mt-6">
               <a
                 class="btn btn-primary mb-4 sm:mb-0 w-full sm:w-auto"
-                href="https://pagespeed.web.dev/analysis/https-qwind-pages-dev/gvmkfj8w90?form_factor=mobile"
+                href="https://pagespeed.web.dev/analysis/https-qwik-resumability-vercel-app/7qa260tsk4?form_factor=desktop"
                 target="_blank"
                 rel="noopener"
               >
