@@ -41,6 +41,7 @@ export default component$(() => {
           <div class="block md:flex items-center flex-1">
             <div class="relative m-auto max-w-4xl">
               <Image
+                loading="eager"
                 src={coverImage}
                 layout="constrained"
                 width={493}
