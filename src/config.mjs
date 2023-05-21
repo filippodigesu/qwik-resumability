@@ -1,8 +1,8 @@
 export const SITE = {
-  name: "Qwind",
+  name: "Qwik - Test",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Qwik Test — Free template for Qwik + Tailwind CSS to build your new website.",
   description:
     "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
 
