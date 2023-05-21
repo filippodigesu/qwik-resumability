@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import { IconGithub } from "../icons/IconGithub";
 
-const coverImage = "https://raw.githubusercontent.com/filippodigesu/qwik-resumability/main/src/assets/images/HERO.webp";
+const coverImage = "https://res.cloudinary.com/dmsnq6k5l/image/upload/v1684677576/HERO_jidcg9.webp";
 
 export default component$(() => {
   return (
